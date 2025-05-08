@@ -34,9 +34,9 @@ The model achieves excellent performance with:
 
   | Predicted →<br>Actual ↓ | Correctly Worn | Incorrectly Worn | No Mask |
   |------------------------|----------------|------------------|----------|
-  | **Correctly Worn**     | 982            | 5                | 3        |
-  | **Incorrectly Worn**   | 4              | 991              | 5        |
-  | **No Mask**            | 2              | 4                | 994      |
+  | **Correctly Worn**     | 594            | 10               | 0        |
+  | **Incorrect Wear**     | 0              | 605              | 0        |
+  | **No Mask**            | 0              | 1                | 373      |
 
 - Trained on GPU using TensorFlow/Keras
 
